@@ -1,0 +1,12 @@
+# Local project/agent configuration
+.kordi/
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS metadata
+.DS_Store
